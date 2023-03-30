@@ -1,0 +1,31 @@
+.banner {
+  @apply flex
+    flex-col
+    gap-4;
+}
+
+.banner__title {
+  @apply text-4xl
+  text-center
+  text-white
+  font-bold;
+}
+
+.banner__title_second {
+  @apply text-amber-500;
+}
+
+.banner__button {
+  @apply border
+  py-2
+  px-8
+  rounded-md
+  bg-white
+  shadow-md
+  transition-all
+  hover:-translate-y-[1px]
+  hover:shadow-xl
+  active:bg-slate-100
+  active:translate-y-[1px]
+  active:shadow-inner;
+}
